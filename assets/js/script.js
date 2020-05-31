@@ -1,6 +1,6 @@
-class CalcController {
+class Calculator {
   constructor() {
-    this._audio = new Audio("click.mp3");
+    this._audio = new Audio("/assets/audio/click.mp3");
     this._audioOnOff = false;
     this._lastOperator = "";
     this._lastNumber = "";
@@ -366,3 +366,5 @@ class CalcController {
     this._currentDate = value;
   }
 }
+
+new Calculator();
