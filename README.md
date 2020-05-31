@@ -8,3 +8,6 @@ Link to the course: https://www.udemy.com/course/javascript-curso-completo/
 
 - The calculator was designed in Illustrator and exported as SVG to be incorporated in the HTML file.
 - All the functionality of the calculator was coded in JavaScript.
+
+### See a demo
+https://juliofelipe.github.io/calculator/
