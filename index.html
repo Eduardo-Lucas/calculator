@@ -36,6 +36,7 @@
             background: url("back-1366x720.jpg") no-repeat center center;
             min-height: 100vh;
             background-size: cover;
+            background-color: #ffedac;
 
         }
 
@@ -193,13 +194,26 @@
             text-align: center;
         }
 
-        #calculadora-casaldev {
-            margin: 0 auto;
 
+        @font-face {
+            font-family: 'AgeoPersonalUse-Regular, Ageo Personal Use';
+            src: url('ageo-personal-use.regular.otf');
         }
 
-        #base {
-            box-shadow: black 0 10px 20px 0;
+        @font-face {
+            font-family: 'Digital-7';
+            src: url('enhanced_led_board-7.ttf');
+        }
+
+        svg {
+            font-family: 'EnhancedLEDBoard-7, Enhanced LED Board-7', sans-serif;
+        }
+
+        #calculadora-casaldev {
+            margin: 0 auto;
+            box-shadow: 10px 0 10px #d9b555;
+            border-radius: 20px;
+
         }
     </style>
 </head>
@@ -209,12 +223,11 @@
     <div class="outer">
         <div class="middle">
             <svg id="calculadora-casaldev" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="600px" height="600px" viewBox="0 0 502.31 800">
+                width="502px" height="800px" viewBox="0 0 502 800">
                 <defs>
                     <style>
                         .cls-1 {
                             fill: url(#Gradiente_sem_nome_59);
-
                         }
 
                         .cls-2 {
@@ -779,9 +792,9 @@
                     <linearGradient id="Gradiente_sem_nome_64-26" x1="1048.82" y1="162.15" x2="1063.86" y2="162.15"
                         xlink:href="#Gradiente_sem_nome_64" />
                 </defs>
-                <g id="base">
-                    <rect class="cls-1" width="502.31" height="800" rx="18.59" />
-                </g>
+
+                <rect class="cls-1" width="502.31" height="800" rx="18.59" />
+
                 <path class="cls-2"
                     d="M1227.19,126.5a18.11,18.11,0,0,1,18.09,18.09V907.41a18.11,18.11,0,0,1-18.09,18.09H762.05A18.1,18.1,0,0,1,744,907.41V144.59a18.1,18.1,0,0,1,18.09-18.09h465.14m0-.5H762.05a18.59,18.59,0,0,0-18.59,18.59V907.41A18.59,18.59,0,0,0,762.05,926h465.14a18.59,18.59,0,0,0,18.59-18.59V144.59A18.59,18.59,0,0,0,1227.19,126Z"
                     transform="translate(-743.46 -126)" />
